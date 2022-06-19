@@ -6,7 +6,10 @@ description: Versions from 0.3 onward
 
 0.3 and onward versions use a completely different development philosophy and framework. It uses **Flow** which can be used with the browser for live refresh that is rendered on the server, and **CrossWeb** that represents HTML in Python classes.
 
-<table><thead><tr><th>Version</th><th data-type="select" data-multiple>Compatibility </th><th data-type="select" data-multiple>Features</th></tr></thead><tbody><tr><td>V3-Test Track</td><td></td><td></td></tr><tr><td>V3-Medway</td><td></td><td></td></tr></tbody></table>
+| Version       | Compatibility            | Upgrade path |
+| ------------- | ------------------------ | ------------ |
+| V3-Test Track | All V3 OpenLoop Releases | Standard     |
+| V3-Medway     | All V3 OpenLoop Releases | Standard     |
 
 {% hint style="danger" %}
 Older versions of OpenLoop older than V3-TestTrackare not cross compatible.
@@ -14,14 +17,14 @@ Older versions of OpenLoop older than V3-TestTrackare not cross compatible.
 
 {% tabs %}
 {% tab title="OpenLoop Classic (0.1-0.2)" %}
-### Support
+#### Support
 
 {% hint style="warning" %}
-Cross Site Scripting vulnerabilities&#x20;
+Cross Site Scripting vulnerabilities
 {% endhint %}
 
 {% hint style="danger" %}
-Database Issues&#x20;
+Database Issues
 {% endhint %}
 
 {% hint style="danger" %}
@@ -30,23 +33,23 @@ Poor/Insufficient Plugin API with no ecosystem
 {% endtab %}
 
 {% tab title="V3-Test Track" %}
-### Support
+#### Support
 
 {% hint style="success" %}
-This update has no active issues or vulnerabilities&#x20;
+This update has no active issues or vulnerabilities
 {% endhint %}
 {% endtab %}
 
 {% tab title="V3-Medway" %}
-### Support
+#### Support
 
 {% hint style="success" %}
-This update has no active issues or vulnerabilities&#x20;
+This update has no active issues or vulnerabilities
 {% endhint %}
 {% endtab %}
 
 {% tab title="OpenLoop Canary" %}
-### Support
+#### Support
 
 This is the support for the code actively being written in the OpenLoop repository.
 
@@ -59,7 +62,7 @@ No documentation or support
 {% endhint %}
 
 {% hint style="success" %}
-Works with new features&#x20;
+Works with new features
 {% endhint %}
 {% endtab %}
 {% endtabs %}
