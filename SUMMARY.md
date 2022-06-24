@@ -9,6 +9,7 @@
 * [System Variables](deploy/system-variables.md)
 * [Setting up Mongo](deploy/setting-up-mongo.md)
 * [Setting up Heroku](deploy/setting-up-heroku.md)
+* [Debugging](deploy/debugging.md)
 
 ## Plugin API <a href="#api" id="api"></a>
 
