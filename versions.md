@@ -55,26 +55,18 @@ This update has no active issues or vulnerabilities
 {% endtab %}
 
 {% tab title="V3-Discovery" %}
+#### Support
+
 {% hint style="success" %}
 This update has no active issues or vulnerabilities
 {% endhint %}
-{% endtab %}
-
-{% tab title="OpenLoop Canary" %}
-#### Support
-
-This is the support for the code actively being written in the OpenLoop repository.
 
 {% hint style="info" %}
-Actively being developed
+Performance with Discovery is optimized with a 80% drop in CPU usage with Flask
 {% endhint %}
 
 {% hint style="warning" %}
-No documentation or support
-{% endhint %}
-
-{% hint style="success" %}
-Works with new features
+V3-TestTrack is no longer supported&#x20;
 {% endhint %}
 {% endtab %}
 {% endtabs %}
