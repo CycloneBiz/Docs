@@ -6,13 +6,15 @@ description: Versions from 0.3 onward
 
 0.3 and onward versions use a completely different development philosophy and framework. It uses **Flow** which can be used with the browser for live refresh that is rendered on the server, and **CrossWeb** that represents HTML in Python classes.
 
-| Version       | Compatibility            | Upgrade path |
-| ------------- | ------------------------ | ------------ |
-| V3-Test Track | All V3 OpenLoop Releases | Standard     |
-| V3-Medway     | All V3 OpenLoop Releases | Standard     |
+| Version       | Compatibility                   | Upgrade path |
+| ------------- | ------------------------------- | ------------ |
+| V3-Test Track | All V3 OpenLoop Releases        | Standard     |
+| V3-Medway     | All V3 OpenLoop Releases        | Standard     |
+| V3-Fanshawe   | All V3 OpenLoop Releases        | Standard     |
+| V3-Discovery  | V3.2 (Medway) - Current Release | Standard     |
 
 {% hint style="danger" %}
-Older versions of OpenLoop older than V3-TestTrackare not cross compatible.
+Older versions of OpenLoop older than V3-TestTrack are not cross compatible.
 {% endhint %}
 
 {% tabs %}
@@ -38,11 +40,21 @@ Poor/Insufficient Plugin API with no ecosystem
 {% hint style="success" %}
 This update has no active issues or vulnerabilities
 {% endhint %}
+
+{% hint style="info" %}
+Updating to Discovery is recommended&#x20;
+{% endhint %}
 {% endtab %}
 
 {% tab title="V3-Medway" %}
 #### Support
 
+{% hint style="success" %}
+This update has no active issues or vulnerabilities
+{% endhint %}
+{% endtab %}
+
+{% tab title="V3-Discovery" %}
 {% hint style="success" %}
 This update has no active issues or vulnerabilities
 {% endhint %}
