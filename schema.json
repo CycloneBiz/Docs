@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "configVersion": {
+      "type": "string",
+      "pattern": "^1.0$"
+    },
+    "cameras": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "videoPath": {
+            "type": "string"
+          },
+          "targetFPS": {
+            "type": "number"
+          },
+          "resolution": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "exposure": {
+            "type": "number"
+          },
+          "brightness": {
+            "type": "number"
+          },
+          "rotation": {
+            "type": "integer"
+          },
+          "flip": {
+            "type": "boolean"
+          }
+        },
+        "required": ["id", "name", "videoPath", "targetFPS", "resolution", "exposure", "brightness", "rotation", "flip"]
+      }
+    },
+    "pipelines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "pipelineType": {
+            "type": "string"
+          },
+          "cameras": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "ntOutput": {
+            "type": "boolean"
+          },
+          "settings": {
+            "type": "object"
+          }
+        },
+        "required": ["id", "name", "pipelineType", "cameras", "ntOutput", "settings"]
+      }
+    }
+  },
+  "required": ["configVersion", "cameras", "pipelines"]
+}
